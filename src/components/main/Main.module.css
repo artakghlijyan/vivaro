@@ -1,0 +1,95 @@
+.maines{
+   position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(24, 62, 108);
+    overflow: hidden;
+}
+
+.hashvic{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+
+
+.nkarhoverov{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    
+}
+
+.nkhov{
+    display: flex;
+    width: 95%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.nkhov:hover{
+    width: 102%;
+    height: 212px;
+    transition: 0.5s;
+}
+.ahnkar{
+    display: flex;
+    width: 22%;
+    height: 200px;
+    overflow: hidden;
+    /* border: 1px solid white; */
+    align-items: center;
+    justify-content: center;
+}
+
+.hashvichnkar{
+    display: flex;
+    width: 48%;
+    height: 79px;
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.hashish{
+    position: absolute;
+    display: flex;
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.sporti{
+    font-size: 12px;
+    color: rgb(75, 49, 49);
+    font-weight: bold;
+}
+
+
+
+
+.tvers{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.nkarruletka{
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+

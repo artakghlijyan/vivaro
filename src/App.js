@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Hider from './components/hider/Hider';
+import Main from './components/main/Main';
+import Bootstrap from './components/boostrap/Bootstrap';
+import Carusel from './components/carusel/Carusel';
+import Slot from './components/slot/Slot';
+import Diler from './components/diler/Diler';
+import Game from './components/game/Game';
+import Footer from './components/footer/Footer';
+import Bye from './components/bye/Bye';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Hider/>
+     <Bootstrap/>
+     <Main/>
+     <Carusel/>
+     <Slot/>
+     <Diler/>
+     <Game/>
+     <Footer/>
+     <Bye/>
     </div>
   );
 }

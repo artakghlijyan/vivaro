@@ -1,0 +1,335 @@
+.carusel{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+   top: 112%;
+   flex-direction: column;
+    
+}
+
+.vernagi{
+    display: flex;
+    width: 22%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+}
+
+
+
+
+
+
+.prev{
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+     font-size: 25px;
+     background-color: silver;
+    color: white;
+    cursor: pointer;
+    left: 30px;
+    border: none;
+    opacity: 0.7;
+}
+
+.next{
+    display: flex;
+    position: absolute;
+     width: 40px;
+    height: 38px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: silver;
+    color: white;
+    cursor: pointer;
+    right: 30px;
+    border:none;
+    opacity: 0.7;
+   
+    
+}
+.next:hover{
+    opacity: 0.9;
+    transition: 0.4s;
+}
+
+.prev:hover{
+    opacity: 0.9;
+    transition: 0.4s;
+}
+
+.navigation{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(143, 78, 0);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(0,0,0, 0.0);
+}
+
+.sviper{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    overflow: hidden;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.swip{
+    display: flex;
+    width: 100%;
+    height:200px;
+    background-color: rgb(69, 61, 121);
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.takicarusel{
+    display: flex;
+    width: 100%;
+    height: 210px;
+    /* background-color: blueviolet; */
+    background-color: black;
+    align-items: center;
+
+  
+}
+
+.aryuc{
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.posit11{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    /* background-color: rgb(13, 105, 185); */
+}
+
+.carmejhover1{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    /* background-color: red; */
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+.carmejhover2{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    /* background-color: rgb(90, 55, 55); */
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+    font-size: 13px;
+}
+
+.lores{
+    display: flex;
+    width: 50%;
+    height: 35px;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px;
+    color: rgb(193, 191, 191);
+    gap: 5px;
+}
+
+.fla{
+    display: flex;
+    width: 5%;
+    height: 16px;
+    border-radius: 5px;
+}
+
+.fla1{
+    display: flex;
+    width: 5%;
+    height: 17px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.lores1{
+    display: flex;
+    width: 50%;
+    height: 35px;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+    font-size: 16px;
+    padding: 8px;
+    color: rgb(193, 191, 191);
+}
+.carmejhover3{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    /* background-color: rgb(4, 144, 157); */
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.armeni{
+    display: flex;
+    width: 40%;
+    height: 80px;
+    /* background-color: rgb(0, 72, 134); */
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+
+}
+
+.hasmik{
+    display: flex;
+    width: 18%;
+    height: 34px;
+   
+}
+.carmejhover4{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    /* background-color: rgb(5, 199, 63); */
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.gcikovhov1{
+    display: flex;
+    height: 45px;
+    width: 50%;
+      background: rgba(123, 123, 123, 0.3);
+    border-radius: 0 0 0 5px;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    cursor: pointer;
+}
+
+.gcikovhov2{
+    display: flex;
+    height: 45px;
+    width: 50%;
+    background: rgba(123, 123, 123, 0.3);
+    border-radius: 0 0 5px 0;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    cursor: pointer;
+
+}
+.gcikovhov1:hover{
+      background-color: rgb(176, 34, 110);
+    transition: 0.4s;
+    color: white;
+}
+
+.gcikovhov2:hover{
+    background-color: rgb(176, 34, 110);
+    transition: 0.4s;
+    color: white;
+}
+
+
+.carmejhover44{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    /* background-color: rgb(5, 199, 63); */
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+
+.gcikovhov24{
+    display: flex;
+    height: 45px;
+    width: 33%;
+    background: rgba(123, 123, 123, 0.3);
+    border-radius: 0 0 5px 0;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    cursor: pointer;
+
+}
+
+.gcikovhov144{
+    display: flex;
+    height: 45px;
+    width: 33%;
+    background: rgba(123, 123, 123, 0.3);
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    cursor: pointer;
+
+}
+
+
+.gcikovhov14{
+    display: flex;
+    height: 45px;
+    width: 33%;
+      background: rgba(123, 123, 123, 0.3);
+    border-radius: 0 0 0 5px;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    cursor: pointer;
+}
+
+
+
+.gcikovhov14:hover{
+      background-color: rgb(176, 34, 110);
+    transition: 0.4s;
+    color: white;
+}
+
+.gcikovhov24:hover{
+    background-color: rgb(176, 34, 110);
+    transition: 0.4s;
+    color: white;
+}
+
+.gcikovhov144:hover{
+      background-color: rgb(176, 34, 110);
+    transition: 0.4s;
+    color: white;
+}
+
