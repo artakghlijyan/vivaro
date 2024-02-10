@@ -1,5 +1,12 @@
 import React from 'react'
 import styles from "./Main.module.css"
+import nko1 from "../main/vivaronkar1.webp"
+import nko2 from "../main/vivaronkar2.webp"
+import nko3 from "../main/vivaronkar3.webp"
+import nko4 from "../main/vivaronkar4.webp"
+import nko5 from "../main/vivaronkar5.webp";
+import nkosik from "../main/vivarojacjpot.webp"
+
 
 const Main = () => {
   return (
@@ -12,7 +19,7 @@ const Main = () => {
           </div>
           <img
             className={styles.nkarruletka}
-            src="https://cmsbetconstruct.com/storage/medias/vbetam/media_1_413bfe5e57504a823993679d01642fc2.png"
+            src={nkosik}
             alt=""
           />
         </div>
@@ -23,7 +30,7 @@ const Main = () => {
           </div>
           <img
             className={styles.nkarruletka}
-            src="https://cmsbetconstruct.com/storage/medias/vbetam/media_1_98ede5a4e06135aa951f55e62fae0587.png"
+            src={nkosik}
             alt=""
           />
         </div>
@@ -35,7 +42,7 @@ const Main = () => {
         >
           <img
             className={styles.nkhov}
-            src="https://cmsbetconstruct.com/storage/medias/vbetam/content_1_cd0c585b4826c4cb7888348887f14093.webp"
+            src={nko3}
             alt=""
           />
         </a>
@@ -45,18 +52,7 @@ const Main = () => {
         >
           <img
             className={styles.nkhov}
-            src="https://cmsbetconstruct.com/storage/medias/vbetam/content_1_42db81ae671e9cff72950248498761da.webp"
-            alt=""
-          />
-        </a>
-
-        <a
-          className={styles.ahnkar}
-          href=""
-        >
-          <img
-            className={styles.nkhov}
-            src="https://cmsbetconstruct.com/storage/medias/vbetam/content_1_799eb076556dbd03b9c484b87de8370a.webp"
+            src={nko2}
             alt=""
           />
         </a>
@@ -67,7 +63,18 @@ const Main = () => {
         >
           <img
             className={styles.nkhov}
-            src="https://cmsbetconstruct.com/storage/medias/vbetam/content_1_937eafdeab0023c8c9aa7a86b5718b70.webp"
+            src={nko1}
+            alt=""
+          />
+        </a>
+
+        <a
+          className={styles.ahnkar}
+          href=""
+        >
+          <img
+            className={styles.nkhov}
+            src={nko4}
             alt=""
           />
         </a>
@@ -77,7 +84,7 @@ const Main = () => {
         >
           <img
             className={styles.nkhov}
-            src="https://cmsbetconstruct.com/storage/medias/vbetam/content_1_5d68cf9c5f1ddeb7123967cc9ced84ea.webp"
+            src={nko5}
             alt=""
           />
         </a>
